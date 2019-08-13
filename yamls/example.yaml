@@ -1,0 +1,10 @@
+apiVersion: ray.io/v1
+kind: Ray
+metadata:
+  name: example-ray
+spec:
+  RayHeadSpec: 
+    Replicas: 2
+  RayWorkerSpec: 
+    Replicas: 2 
+  
